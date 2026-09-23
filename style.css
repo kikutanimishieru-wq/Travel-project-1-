@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1280px;
+  margin: auto;
+}
+
 img {
   height: 100%;
   width: 100%;
@@ -124,7 +132,7 @@ img {
 .contact1 {
   width: 86.55px;
   height: 44px;
-  padding-top: 11.5px 16px 12.5px;
+  padding: 11.5px 16px 12.5px;
   border-radius: 9999px;
 
   display: flex;
@@ -187,7 +195,7 @@ img {
       180deg,
       rgba(25, 69, 83, 0.8) 0%,
       rgba(6, 81, 97, 0.5) 50%,
-      #F3FAFF 100%
+      #f3faff 100%
     ),
     url(./Nature.jpg);
 
@@ -283,7 +291,7 @@ img {
 
   font-family: Plus Jakarta Sans;
   font-weight: 700;
-  font-style: Bold;
+
   font-size: 30px;
   line-height: 38px;
   letter-spacing: -0.75px;
@@ -297,7 +305,7 @@ img {
 .Heading1 {
   font-family: Plus Jakarta Sans;
   font-weight: 900;
-  font-style: ExtraBold;
+
   font-size: 56px;
   color: #ffffff;
   line-height: 64px;
@@ -436,7 +444,7 @@ img {
 
   font-family: Inter;
   font-weight: 600;
-  font-style: Semi Bold;
+
   font-size: 14px;
 
   gap: 8px;
@@ -458,7 +466,7 @@ img {
 
   font-family: Inter;
   font-weight: 600;
-  font-style: Semi Bold;
+
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.14px;
@@ -494,7 +502,7 @@ img {
 .Featured-Natural-Wonders {
   font-family: Plus Jakarta Sans;
   font-weight: 900;
-  font-style: ExtraBold;
+
   font-size: 40px;
   color: #141d21;
 }
@@ -707,7 +715,7 @@ img {
 }
 
 /* ========================================
-   DAY 1–4 CARD
+   DAY 1â€“4 CARD
    ======================================== */
 
 .Day-1,
@@ -728,7 +736,7 @@ img {
 }
 
 /* ========================================
-   DAY 1–4 HEAD
+   DAY 1â€“4 HEAD
    ======================================== */
 
 .Day-1-head,
@@ -743,7 +751,7 @@ img {
 }
 
 /* ========================================
-   DAY 1–4 NUMBER
+   DAY 1â€“4 NUMBER
    ======================================== */
 
 .Day-1-text,
@@ -773,7 +781,7 @@ img {
 }
 
 /* ========================================
-   DAY 1–4 LOCATION
+   DAY 1â€“4 LOCATION
    ======================================== */
 
 .Sukhbaatar-square,
@@ -790,7 +798,7 @@ img {
 }
 
 /* ========================================
-   DAY 1–4 TITLE
+   DAY 1â€“4 TITLE
    ======================================== */
 
 .Urban,
@@ -806,7 +814,7 @@ img {
 }
 
 /* ========================================
-   DAY 1–4 DESCRIPTION
+   DAY 1â€“4 DESCRIPTION
    ======================================== */
 
 .Assembly-point,
@@ -827,7 +835,7 @@ img {
 }
 
 /* ========================================
-   DAY 1–4 BOTTOM INFO
+   DAY 1â€“4 BOTTOM INFO
    ======================================== */
 
 .overland-drive,
@@ -1225,8 +1233,6 @@ img {
   top: -20px;
   left: 50%;
   transform: translateX(-50%);
-
-  
 }
 
 /* ========================================
@@ -1662,12 +1668,9 @@ img {
 /* Footer Top */
 
 .Footer-container1 {
-  width: 1184px;
-  height: 204px;
-
   display: flex;
   justify-content: space-between;
-  margin: 72px 48px 72px 48px;
+  margin: 5px 48px ;
 }
 
 /* Footer Box 1 */
@@ -1678,18 +1681,17 @@ img {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  
 }
 .Footer-logo {
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.footer-box1-background{
+.footer-box1-background {
   width: 24px;
   height: 20px;
   border-radius: 50%;
-  background-color:#D9EFF7; 
+  background-color: #d9eff7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1737,8 +1739,6 @@ img {
   display: flex;
   flex-direction: column;
 }
-
-  
 
 .Leave-No span {
   font-family: Inter, sans-serif;
